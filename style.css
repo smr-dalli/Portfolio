@@ -59,6 +59,27 @@ header ul li a {
 #projects {
   padding: 0px 100px 50px 100px;
 }
+#projects .icons {
+  position: absolute;
+  bottom: 80px;
+}
+#projects .icons img {
+  height: 40px !important;
+  width: 40px !important;
+  margin: 0px 5px;
+  margin-top: auto !important;
+}
+#skills {
+  padding: 0px 100px !important;
+}
+#skills img {
+  height: 180px !important;
+  width: 180px !important;
+  margin: 100px 10px;
+}
+#skills > img:nth-of-type(2) {
+  width: 260px !important;
+}
 
 .intro {
   position: relative;
@@ -195,19 +216,25 @@ header ul li a {
 }
 #contact {
   height: 100px;
-  background-color: #212529;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 #contact > div {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 #contact i {
-  font-size: 50px;
-  color: white;
+  font-size: 100px;
+  color: black;
 }
 #contact a {
   margin: 10px;
+}
+#copyrights p {
+  height: 70px;
+  background-color: #212529;
+  color: white;
+  margin-top: 80px;
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 0px !important;
 }
